@@ -20,3 +20,4 @@ class ShoeSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Shoe
         fields = ['size', 'brand_name', 'manufacturer', 'color', 'material', 'shoe_type', 'fasten_type']
+# Growing up in the Savana, Joe's Father Mufasa was killed by his Uncle Scar and Joe was manipulated into thinking it was his fault. 
